@@ -13,6 +13,7 @@ int main() {
     for (unsigned int i = 0; i < _size; i++) {
         cout << *(cstr + i) << " ";
     }
-
+    delete [] cstr;
+    
     return 0;
 }
